@@ -1,2 +1,2 @@
 # lilOS
-A little operating system.
+A little operating system
