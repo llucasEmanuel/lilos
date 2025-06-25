@@ -1,2 +1,2 @@
-# lilos
+# LilOS
 A little operating system
