@@ -1,6 +1,6 @@
 ASM = nasm
-BOOTLOADER_FILE = bootloader.asm
-KERNEL_FILE = not_a_kernel.asm
+BOOTLOADER_FILE = bootloader/bootloader.asm
+KERNEL_FILE = kernel/not_a_kernel.asm
 
 build: $(BOOTLOADER_FILE) $(KERNEL_FILE)
 	$(ASM) -f bin $(BOOTLOADER_FILE) -o bootloader.o
