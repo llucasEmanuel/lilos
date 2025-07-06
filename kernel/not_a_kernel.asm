@@ -10,6 +10,9 @@ start:
     jmp $
 
 print_str:
+    mov ah, 0Eh
+    
+print_char:
     lodsb
 
     cmp al, 0
