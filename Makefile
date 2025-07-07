@@ -10,4 +10,4 @@ build: $(BOOTLOADER_FILE) $(KERNEL_FILE)
 	qemu-system-x86_64 -s kernel.img
 
 clean:
-	rm -f *.o
+	rm -f *.o kernel.img
