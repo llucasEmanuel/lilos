@@ -12,6 +12,5 @@ RUN apt-get update && \
 RUN mkdir /data
 WORKDIR /data
 
-# Exected automatically when the container is initialized
 ENTRYPOINT [ "qemu-system-x86_64" ]
 
